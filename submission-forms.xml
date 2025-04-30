@@ -61,7 +61,7 @@
                     <label>Author</label>
                     <input-type>onebox</input-type>
                     <hint>Enter the author's name (Family name, Given names).</hint>
-                    <!-- Sherry updated - the following field was blank -->
+                    <!-- Sherry updated - the following line the field was blank -->
                     <required>At least one author is required.</required>
                 </field>
             </row>
