@@ -51,6 +51,7 @@
         <!-- Form which defines the first page/section of the "traditional" DSpace submission process,
              often used when depositing normal Items (i.e. Items which are not Entities). -->
         <form name="traditionalpageone">
+        <!-- Made this required -->
             <row>
                 <field>
                     <dc-schema>dc</dc-schema>
@@ -60,7 +61,8 @@
                     <label>Author</label>
                     <input-type>onebox</input-type>
                     <hint>Enter the author's name (Family name, Given names).</hint>
-                    <required></required>
+                    <!-- Sherry updated - the following field was blank -->
+                    <required>At least one author is required.</required>
                 </field>
             </row>
             <row>
@@ -75,6 +77,9 @@
                     <required>You must enter a main title for this item.</required>
                 </field>
             </row>
+
+<!-- Sherry removed this field, by commenting it out -->
+            <!-- 
             <row>
                 <field>
                     <dc-schema>dc</dc-schema>
@@ -87,6 +92,8 @@
                     <required></required>
                 </field>
             </row>
+            -->
+<!-- end of comment above -->
             <row>
                 <field>
                     <dc-schema>dc</dc-schema>
