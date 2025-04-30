@@ -51,7 +51,7 @@
         <!-- Form which defines the first page/section of the "traditional" DSpace submission process,
              often used when depositing normal Items (i.e. Items which are not Entities). -->
         <form name="traditionalpageone">
-        <!-- Made this required -->
+        <!-- Made author field required -->
             <row>
                 <field>
                     <dc-schema>dc</dc-schema>
