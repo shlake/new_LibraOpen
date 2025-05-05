@@ -162,6 +162,8 @@
                         it, please enter the types and the actual numbers or codes.
                     </hint>
                     <required></required>
+<!-- Sherry added following line visibility - so will not show up in form, but can be used for migration to keep LibraOpen IDs -->
+                    <visibility>workflow</visibility>
                 </field>
             </row>
             <row>
