@@ -133,6 +133,8 @@
                     <required></required>
                 </field>
             </row>
+<!-- Sherry removed this Series-Report field, by commenting it out -->
+            <!--
             <row>
                 <field>
                     <dc-schema>dc</dc-schema>
@@ -145,6 +147,8 @@
                     <required></required>
                 </field>
             </row>
+            -->
+<!-- end of comment sectionabove -->
             <row>
                 <field>
                     <dc-schema>dc</dc-schema>
