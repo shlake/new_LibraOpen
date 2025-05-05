@@ -222,7 +222,8 @@
                     <label>Abstract</label>
                     <input-type>textarea</input-type>
                     <hint>Enter the abstract of the item.</hint>
-                    <required></required>
+<!-- Sherry made abstract required by adding content to the required tag -->
+                    <required>An abstract or description is required.</required>
                 </field>
             </row>
             <row>
@@ -243,7 +244,8 @@
                     <dc-element>description</dc-element>
                     <dc-qualifier></dc-qualifier>
                     <repeatable>false</repeatable>
-                    <label>Description</label>
+<!-- Sherry changed "description" general to "Notes" to match LibraOpen -->
+                    <label>Notes</label>
                     <input-type>textarea</input-type>
                     <hint>Enter any other description or comments in this box.</hint>
                     <required></required>
