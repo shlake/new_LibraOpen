@@ -127,7 +127,8 @@
                     <dc-element>identifier</dc-element>
                     <dc-qualifier>citation</dc-qualifier>
                     <repeatable>false</repeatable>
-                    <label>Citation</label>
+<!-- Sherry changed the label - added source -->
+                    <label>Source Citation</label>
                     <input-type>onebox</input-type>
                     <hint>Enter the standard citation for the previously issued instance of this item.</hint>
                     <required></required>
