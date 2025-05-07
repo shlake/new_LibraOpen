@@ -226,6 +226,20 @@
                     <required>An abstract or description is required.</required>
                 </field>
             </row>
+<!-- Added new field for contributor -->
+            <row>
+                <field>
+                    <dc-schema>dc</dc-schema> 
+                    <dc-element>contributor</dc-element>
+                    <dc-qualifier></dc-qualifier>
+                    <repeatable>true</repeatable>
+                    <label>Contributor</label>
+                    <input-type>onebox</input-type>
+                    <hint>The person(s) responsible for contributing to the development of the resource, such as editor or producer (not an author)</hint>
+                    <required></required>
+                </field>
+            </row> 
+<!-- end of section Sherry added for contributor -->
             <row>
                 <field>
                     <dc-schema>dc</dc-schema>
