@@ -240,15 +240,32 @@
                 </field>
             </row> 
 <!-- end of section Sherry added for contributor -->
+<!-- Sherry added section for Related URL -->
+            <row>
+                <field>
+                    <dc-schema>dc</dc-schema>
+                    <dc-element>relation</dc-element>
+                    <dc-qualifier></dc-qualifier>
+                    <repeatable>true</repeatable>
+                    <label>Related URL</label>
+                    <input-type>onebox</input-type>
+                    <hint>Links to another version, another location with the file, website or other specific content (audio, video, PDF document) related to the work..</hint>
+                    <required></required>
+                </field>
+            </row>
+<!-- end of section Sherry added for Related URL -->
             <row>
                 <field>
                     <dc-schema>dc</dc-schema>
                     <dc-element>description</dc-element>
                     <dc-qualifier>sponsorship</dc-qualifier>
-                    <repeatable>false</repeatable>
+<!-- Sherry made sponsors repeatable was false -->
+                    <repeatable>true</repeatable>
                     <label>Sponsors</label>
-                    <input-type>textarea</input-type>
-                    <hint>Enter the names of any sponsors and/or funding codes in the box.</hint>
+<!-- Sherry changed input to onebox was textarea -->
+                    <input-type>onebox</input-type>
+<!-- Sherry also edited the hint -->
+                    <hint>Enter the names of any sponsors and/or funding codes.</hint>
                     <required></required>
                 </field>
             </row>
