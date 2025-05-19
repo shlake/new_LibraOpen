@@ -172,7 +172,8 @@
                     <dc-schema>dc</dc-schema>
                     <dc-element>type</dc-element>
                     <dc-qualifier></dc-qualifier>
-                    <repeatable>true</repeatable>
+<!-- Sherry changed to "false", to make Type NOT repeatable -->
+                    <repeatable>false</repeatable>
                     <label>Type</label>
                     <input-type value-pairs-name="common_types">dropdown</input-type>
                     <hint>Select the type of content of the item.
